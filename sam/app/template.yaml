@@ -207,7 +207,7 @@ Resources:
                   Branch: !Ref GitHubBranch
                   PollForSourceChanges: false
                 OutputArtifacts:
-                  - Name: SourceArtifact
+                  - Name: GitSourceArtifact
         - Name: Build
           Actions:
             - Name: Build
@@ -219,7 +219,7 @@ Resources:
               Configuration:
                 ProjectName: !Ref BuildProject
               InputArtifacts:
-                - Name: SourceArtifact
+                - Name: GitSourceArtifact
               OutputArtifacts:
                 - Name: BuildArtifact
         - !If
