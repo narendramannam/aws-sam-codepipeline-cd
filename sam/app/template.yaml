@@ -5,15 +5,14 @@ Description: >-
 
 Metadata:
   AWS::ServerlessRepo::Application:
-    Name: aws-sam-codepipeline-cd
+    Name: aws-sam-codepipeline-cd-naren
     Description: >-
       This serverless app sets up an AWS CodePipeline Pipeline as a CD solution for a GitHub-based SAM project. Once setup, every time the specified GitHub repository branch is updated, the change will flow through the CodePipeline pipeline.
-    Author: AWS Serverless Application Repository
-    SpdxLicenseId: MIT-0
+    Author: narendramannam
     Labels: [github, cd, codepipeline, continuous-deploy, sam]
-    HomePageUrl: https://github.com/awslabs/aws-sam-codepipeline-cd
+    HomePageUrl: https://github.com/narendramannam/aws-sam-codepipeline-cd
     SemanticVersion: 1.1.0
-    SourceCodeUrl: https://github.com/awslabs/aws-sam-codepipeline-cd/tree/1.1.0
+    SourceCodeUrl: https://github.com/narendramannam/aws-sam-codepipeline-cd/tree/1.1.0
     LicenseUrl: ../../LICENSE
     ReadmeUrl: ../../README.md
 
